@@ -1,5 +1,7 @@
 import React, { useRef } from "react";
 
+// key difference between useState and useRef is, useRef does not cause the component to re-render
+
 function CounterRef() {
   const count = useRef(0);
 
